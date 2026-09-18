@@ -1,0 +1,17 @@
+# Arquivos de dados brutos e planilhas pesadas
+*.csv
+*.xlsx
+*.parquet
+dados_brutos/
+
+# Ambientes virtuais e caches de programação (Python/R)
+.venv/
+__pycache__/
+.Rhistory
+.RData
+
+# Arquivos do sistema (Windows / Office temporários)
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
