@@ -1,8 +1,16 @@
+# /// script
+# dependencies = [
+#   "matplotlib",
+# ]
+# ///
+
 import csv
 from collections import Counter
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 CSV_PATH = Path("dados/processados/extracao_estudos.csv")
+FIGURAS_DIR = Path("documentos/figuras")
 
 
 def sintetizar_campo_multivalorado(registros, campo):
@@ -15,7 +23,28 @@ def sintetizar_campo_multivalorado(registros, campo):
   return Counter(termos)
 
 
-def gerar_relatorio():
+def salvar_grafico_barras(contador, titulo, nome_arquivo, rotulo_x="Frequência"):
+  if not contador:
+    return
+
+  FIGURAS_DIR.mkdir(parents=True, exist_ok=True)
+  itens_ordenados = contador.most_common()
+  categorias = [k for k, _ in itens_ordenados]
+  valores = [v for _, v in itens_ordenados]
+
+  plt.figure(figsize=(9, 5))
+  plt.barh(categorias[::-1], valores[::-1], color="#2b5c8f")
+  plt.xlabel(rotulo_x)
+  plt.title(titulo, fontsize=12, fontweight="bold")
+  plt.tight_layout()
+
+  saida = FIGURAS_DIR / nome_arquivo
+  plt.savefig(saida, dpi=300)
+  plt.close()
+  print(f"✔ Gráfico salvo: {saida}")
+
+
+def gerar_relatorio_e_graficos():
   if not CSV_PATH.exists():
     print(f"Erro: Arquivo não localizado em {CSV_PATH}")
     return
@@ -25,56 +54,34 @@ def gerar_relatorio():
     registros = list(reader)
 
   total = len(registros)
-  print("=" * 60)
-  print(f"SÍNTESE DESCRITIVA DA EXTRAÇÃO (N = {total} estudos)")
-  print("=" * 60)
-
   if total == 0:
     print("Nenhum estudo registrado para análise.")
     return
 
-  # 1. Delineamento de estudo
-  print("\n1. Delineamento Metodológico (study_design):")
-  designs = Counter(
-      r.get("study_design", "NR").strip()
-      for r in registros
-      if r.get("study_design")
-  )
-  for k, v in designs.most_common():
-    print(f"   - {k}: {v} ({v/total*100:.1f}%)")
+  print("=" * 60)
+  print(f"GERANDO ESTATÍSTICAS E GRÁFICOS (N = {total} estudos)")
+  print("=" * 60)
 
-  # 2. Distribuição Geográfica
-  print("\n2. Distribuição Geográfica (country_region):")
-  paises = Counter(
-      r.get("country_region", "NR").strip()
-      for r in registros
-      if r.get("country_region")
-  )
-  for k, v in paises.most_common(5):
-    print(f"   - {k}: {v} ({v/total*100:.1f}%)")
-
-  # 3. Ferramentas e Plataformas Mencionadas (multivalorado)
-  print("\n3. Ferramentas e Plataformas (tools_or_platforms_mentioned):")
   ferramentas = sintetizar_campo_multivalorado(
       registros, "tools_or_platforms_mentioned"
   )
-  for k, v in ferramentas.most_common():
-    print(f"   - {k}: {v} ocorrência(s)")
-
-  # 4. Fatores de Custo (MFDados - multivalorado)
-  print("\n4. Fatores de Custo Relatados (cost_factors):")
   custos = sintetizar_campo_multivalorado(registros, "cost_factors")
-  for k, v in custos.most_common():
-    print(f"   - {k}: {v} ocorrência(s)")
-
-  # 5. Fatores de Benefício (MFDados - multivalorado)
-  print("\n5. Fatores de Benefício Relatados (benefit_factors):")
   beneficios = sintetizar_campo_multivalorado(registros, "benefit_factors")
-  for k, v in beneficios.most_common():
-    print(f"   - {k}: {v} ocorrência(s)")
 
-  print("\n" + "=" * 60)
+  salvar_grafico_barras(
+      ferramentas,
+      "Ferramentas e Plataformas de PGD Mencionadas",
+      "grafico_ferramentas.png",
+  )
+  salvar_grafico_barras(
+      custos, "Fatores de Custo Relatados (MFDados)", "grafico_custos.png"
+  )
+  salvar_grafico_barras(
+      beneficios,
+      "Fatores de Benefício Relatados (MFDados)",
+      "grafico_beneficios.png",
+  )
 
 
 if __name__ == "__main__":
-  gerar_relatorio()
+  gerar_relatorio_e_graficos()
