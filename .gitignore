@@ -4,14 +4,15 @@
 *.parquet
 dados_brutos/
 
-# Ambientes virtuais e caches de programação (Python/R)
+# Ambientes virtuais e caches de programaï¿½ï¿½o (Python/R)
 .venv/
 __pycache__/
 .Rhistory
 .RData
 
-# Arquivos do sistema (Windows / Office temporários)
+# Arquivos do sistema (Windows / Office temporï¿½rios)
 Thumbs.db
 Desktop.ini
 ~$*
 *.tmp
+!dados/processados/extracao_estudos.csv
