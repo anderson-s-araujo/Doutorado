@@ -2,7 +2,7 @@
 **Projeto:** Tese de Doutorado - PPGICS / Fiocruz  
 **Pesquisador:** Anderson Araujo  
 **Repositório:** Moranderson/Doutorado (Privado)
-
+* **Documento Oficial FioDMP:** [Acessar PDF](pgd_fiodmp.pdf)
 ---
 
 ## 1. Descrição e Coleta dos Dados
