@@ -16,3 +16,6 @@ Desktop.ini
 ~$*
 *.tmp
 !dados/processados/extracao_estudos.csv
+artigos_S001_S011.zip
+
+dados/brutos/
