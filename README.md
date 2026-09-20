@@ -1,5 +1,4 @@
-
-
+```text
 Doutorado/
 ├── dados/
 │   ├── brutos/                 # Arquivos brutos protegidos por versionamento
