@@ -7,9 +7,10 @@ Este repositório contém os dados, ficheiros de extração e scripts de suporte
 ## Estrutura do Diretório
 
 - \dados/\:
-  - \rutos/\: Ficheiros PDF dos estudos incluídos (\S001.pdf\ a \S011.pdf\) e exportações originais (Rayyan).
+  - \Brutos/\: Ficheiros PDF dos estudos incluídos (\S001.pdf\ a \S011.pdf\) e exportações originais (Rayyan).
   - \processados/\: Matrizes consolidadas de extração (\extracao_estudos.csv\).
-  - \esultados/\: Tabelas cruzadas e dados sintetizados.
+  - \
+Resultados/\: Tabelas cruzadas e dados sintetizados.
 - \documentos/\: Notas metodológicas, protocolos e figuras analíticas (\documentos/figuras/\).
 - \scripts/\: Rotinas em Python para validação, população de matrizes e geração de gráficos analíticos.
 
