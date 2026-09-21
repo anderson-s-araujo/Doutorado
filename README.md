@@ -1,24 +1,29 @@
-```text
-Doutorado/
-├── dados/
-│   ├── brutos/                 # Arquivos brutos protegidos por versionamento
-│   └── processados/
-│       ├── cruzamento_atores_dmp.csv      # Mapeamento analítico de atores e DMP
-│       ├── cruzamento_desenho_dmp.csv     # Mapeamento de delineamentos metodológicos
-│       └── extracao_estudos.csv           # Planilha com os 30 campos de extração (JBI/MFDados)
-├── documentos/
-│   ├── figuras/                # Diagramas, fluxos e figuras analíticas (dpi=300)
-│   └── protocolos/
-│       ├── dicionario_dados_extracao.md   # Codebook dos 30 campos de extração
-│       ├── pgd_fiodmp.pdf                 # PGD institucional exportado da plataforma FioDMP
-│       ├── pgd.md                         # Síntese do Plano de Gestão de Dados
-│       ├── protocolo_revisao.md           # Protocolo de revisão de escopo (JBI / PRISMA-ScR)
-│       └── tabelas_resultados_tese.md     # Tabelas consolidadas para a tese
-├── scripts/
-│   ├── 01_valida_extracao.py              # Script em Python para auditoria e integridade do CSV
-│   ├── 02_estatisticas_descritivas.py     # Script para análises descritivas do corpus
-│   ├── 03_popula_extracao.py              # Automação de povoamento de dados
-│   ├── 05_analise_frequencias.py          # Cálculo de frequências absolutas
-│   └── 46_gera_figuras_adicionais.py      # Renderização de gráficos complementares
-├── .gitignore                  # Regras de exclusão de dados volumosos/sensíveis
-└── README.md                   # Apresentação geral do repositório
+﻿# Projeto de Doutoramento: Extração e Análise de Dados de Revisão
+
+Este repositório contém os dados, ficheiros de extração e scripts de suporte ao projeto de doutoramento desenvolvido no PPGICS/Fiocruz, focado em governança de dados, Planos de Gestão de Dados (DMP) e princípios FAIR na investigação em saúde.
+
+## Estrutura do Diretório
+
+- \dados/\:
+  - \rutos/\: Ficheiros PDF dos estudos incluídos (\S001.pdf\ a \S011.pdf\) e exportações originais (Rayyan).
+  - \processados/\: Matrizes consolidadas de extração (\extracao_estudos.csv\).
+  - \esultados/\: Tabelas cruzadas e dados sintetizados.
+- \documentos/\: Notas metodológicas, protocolos e figuras analíticas (\documentos/figuras/\).
+- \scripts/\: Rotinas em Python para validação, população de matrizes e geração de gráficos analíticos.
+
+## Ambiente de Execução
+
+- Gestor de ambiente e dependências: \uv\ / Python 3.12
+- Exemplos de execução:
+  \\\powershell
+  uv run python scripts/03_popula_extracao.py
+  uv run --with pandas --with matplotlib python scripts/46_gera_figuras_adicionais.py
+  \\\
+
+## Licença
+
+Este repositório é distribuído sob os termos da licença constante no ficheiro [LICENSE](LICENSE).
+
+## Citação
+
+Para referenciar os scripts e dados deste projeto, consulte o ficheiro [CITATION.cff](CITATION.cff).

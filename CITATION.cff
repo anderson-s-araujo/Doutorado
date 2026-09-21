@@ -1,0 +1,15 @@
+﻿cff-version: 1.2.0
+message: "Se você utilizar este repositório, dados ou rotinas de extração, cite-o conforme indicado abaixo."
+authors:
+  - family-names: "Silva de Araujo"
+    given-names: "Anderson"
+    affiliation: "Fiocruz - PPGICS"
+title: "Rotinas e Dados de Extração para Revisão Sistemática em Gestão de Dados e Princípios FAIR"
+version: 0.1.0
+date-released: 2026-09-21
+license: "MIT"
+keywords:
+  - "pesquisa em saude"
+  - "plano de gestao de dados"
+  - "FAIR data"
+  - "revisao sistematica"
