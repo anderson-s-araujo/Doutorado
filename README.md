@@ -1,5 +1,7 @@
 ﻿# Projeto de Doutoramento: Extração e Análise de Dados de Revisão
 
+[![DOI](https://zenodo.org/badge/1375773992.svg)](https://doi.org/10.5281/zenodo.22875538)
+
 Este repositório contém os dados, ficheiros de extração e scripts de suporte ao projeto de doutoramento desenvolvido no PPGICS/Fiocruz, focado em governança de dados, Planos de Gestão de Dados (DMP) e princípios FAIR na investigação em saúde.
 
 ## Estrutura do Diretório
@@ -26,4 +28,4 @@ Este repositório é distribuído sob os termos da licença constante no ficheir
 
 ## Citação
 
-Para referenciar os scripts e dados deste projeto, consulte o ficheiro [CITATION.cff](CITATION.cff).
+Para referenciar os scripts e dados deste projeto, consulte o ficheiro [CITATION.cff](CITATION.cff) ou utilize o DOI persistente: [10.5281/zenodo.22875538](https://doi.org/10.5281/zenodo.22875538).
