@@ -1,0 +1,29 @@
+# Relatório de Extração Completa - Estudo S002
+
+- **Identificador (study_id):** S002
+- **Citação:** Strydom A, et al. Developing a data management plan template for multi-omics research involving vulnerable populations in low- and middle-income countries: the NESHIE study. 2023.
+- **DOI / URL:** [10.17632/neshie2023](https://doi.org/10.17632/neshie2023)
+- **Tipo de Documento:** Artigo metodológico de descrição e proposta de Plano de Gestão de Dados
+- **Área do Conhecimento:** Ciências da Saúde / Genómica / Gestão de Dados
+- **Contexto Geográfico:** África do Sul / Países de Baixa e Renda Média (LMICs)
+- **Objetivo Principal:** Propor um template abrangente de PGD para estudos de saúde com foco em populações vulneráveis e abordagens multi-ómicas em LMICs.
+- **Desenho do Estudo:** Outro - Artigo metodológico de descrição e proposta de PGD
+- **Participantes / Amostra:** Não se aplica (estudo metodológico/infraestrutura)
+- **Atores Envolvidos:** Investigadores; gestores de dados; Data Access Committee (DAC)
+- **Contexto e Requisitos de PGD:** Projeto financiado / Obrigatório
+- **Ferramentas ou Plataformas:** DMPTool / REDCap
+- **Fatores de Custo / Esforço:** Redução de esforço na gestão antecipada, conformidade com regulamentações locais (POPIA) e salvaguarda de dados genómicos sensíveis
+- **Práticas Reportadas:** Respostas-modelo, workflows do REDCap, diretrizes éticas e comités de acesso a dados (DAC)
+- **Fatores de Desafio / Barreiras:** Riscos de privacidade; restrições de infraestrutura local; proteção de populações vulneráveis
+- **Fatores Facilitadores:** Conformidade regulatória (POPIA); princípios FAIR; proteção de dados sensíveis
+- **Fatores Contextuais (Institucionais):** Exigências de financiadores; políticas e normas institucionais; quadros éticos e legais locais
+- **Fatores Contextuais (Individuais):** Conhecimento prévio da equipa técnica; experiência em ensaios clínicos
+- **Experiência do Utilizador:** Plataformas eletrónicas robustas (REDCap Data Resolution Workflow) e diretrizes éticas claras
+- **Benefícios Percebidos:** Maior conformidade; antecipação da gestão de dados; preservação e partilha controlada
+- **Avaliação de Conhecimento FAIR:** Alto nível
+- **Recomendações-Chave:** Depósito em repositórios internacionais sob pseudonimização estrita e acesso mediado por DAC
+- **Limitações Relatadas:** Foco num projeto específico (NESHIE), exigindo adaptações customizadas perante restrições de infraestrutura
+- **Revisor / Validador:** AA
+- **Data de Extração:** 2026-09-22
+- **Notas / Comentários:** Estudo S002 validado e estruturado conforme o padrão do protocolo de extração.
+- **Categoria da Ferramenta:** DMPTool / REDCap

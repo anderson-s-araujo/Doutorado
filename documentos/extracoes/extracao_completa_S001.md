@@ -1,0 +1,29 @@
+# Relatório de Extração Completa - Estudo S001
+
+- **Identificador (study_id):** S001
+- **Citação:** SHREEVE Kaitlyn N. HURLEY Robert W. ADAMS Meredith C. B. Navigating the new NIH Data Management Sharing plan: the NIH HEAL Initiative Data2Action DMPTool template. JAMIA Open v. 8 n. 3 ooaf040 jun. 2025.
+- **DOI / URL:** [10.1093/jamiaopen/ooaf040](https://doi.org/10.1093/jamiaopen/ooaf040)
+- **Tipo de Documento:** Relato de experiência / Aplicação tecnológica (Application Note)
+- **Área do Conhecimento:** Ciências da Saúde / Gestão de Dados
+- **Contexto Geográfico:** Estados Unidos da América (EUA)
+- **Objetivo Principal:** Descrever a adaptação do DMPTool para suportar as políticas de partilha de dados da iniciativa NIH HEAL.
+- **Desenho do Estudo:** Relato de experiência / Aplicação tecnológica
+- **Participantes / Amostra:** Investigadores financiados pelo consórcio HEAL / dor crónica e adicção; HEAL Data Stewardship Group
+- **Atores Envolvidos:** data stewards; gestores de repositório; financiadores
+- **Contexto e Requisitos de PGD:** Projeto financiado / Obrigatório
+- **Ferramentas ou Plataformas:** DMPTool
+- **Fatores de Custo / Esforço:** Redução de encargo administrativo e suporte à conformidade
+- **Práticas Reportadas:** Respostas-modelo, registo HEAL Platform, metadados CEDAR, uso de CDEs e depósito NAHDAP
+- **Fatores de Desafio / Barreiras:** Dados sensíveis; privacidade e confidencialidade; carga burocrática; ausência de modelos adaptados
+- **Fatores Facilitadores:** Conformidade com políticas; princípios FAIR; redução da carga de trabalho; colaboração
+- **Fatores Contextuais (Institucionais):** Exigências de financiadores; políticas e normas; suporte de bibliotecas ou data stewards; repositórios; infraestrutura
+- **Fatores Contextuais (Individuais):** Percepção de utilidade; familiaridade com PGD; familiaridade com FAIR; disponibilidade de tempo
+- **Experiência do Utilizador:** Templates com exemplos integrados, HEAL Stewards, interfaces padronizadas (CEDAR) e equipas de apoio de repositórios
+- **Benefícios Percebidos:** Aumento do potencial de compartilhamento; facilitação da colaboração; maior conformidade; metadados; economia de tempo
+- **Avaliação de Conhecimento FAIR:** Alto nível
+- **Recomendações-Chave:** Depósito NAHDAP (aberto e restrito), registo HEAL, metadados CEDAR, termos com anonimização, CDEs
+- **Limitações Relatadas:** Foco restrito ao consórcio NIH HEAL; ausência de estudo longitudinal com amostra grande
+- **Revisor / Validador:** AA
+- **Data de Extração:** 2026-09-20
+- **Notas / Comentários:** Estudo S001 validado detalhadamente conforme relatório completo.
+- **Categoria da Ferramenta:** DMPTool
