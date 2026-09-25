@@ -36,4 +36,4 @@
 - **Data de Extração**: 2026-09-20
 - **Comentários / Notas de Consenso**: Estudo exaustivo e empiricamente robusto sobre formação em RDM, combinando estatística descritiva/inferencial e análise qualitativa de feedback. 
   - **OUTRO (Especificações adicionais)**: Abordagem pedagógica focada explicitamente na articulação multi-stakeholder (envolvendo bibliotecas, serviços jurídicos, TI e ética) e na aplicação prática imediata através de um Plano de Gestão de Dados (PGD) próprio do investigador.
-- **Ferramenta Principal**: DMPTool / DMPTuuli
+- **Ferramenta Principal**: DMPTool / DMPTuuli 
