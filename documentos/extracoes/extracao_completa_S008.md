@@ -1,0 +1,29 @@
+# S008: Chawinga & Zinn (2020)
+
+- **Referência Completa (ABNT)**: CHAWINGA, W. D.; ZINN, S. Research data management in an African medical university: A mixed-methods approach. Health Information and Libraries Journal, v. 37, n. 3, p. 220-230, 2020. DOI: 10.1111/hir.12285.
+- **Tipo de Documento**: Artigo de investigação
+- **Área do Conhecimento**: Ciências da Saúde / Gestão de Dados de Investigação (RDM)
+- **País / Região**: Malawi (África)
+- **Objetivo**: Investigar o estado atual da gestão de dados de investigação (RDM), os desafios de infraestrutura, as competências e as políticas numa escola de saúde em África.
+- **Desenho do Estudo**: Abordagem mista (questionário quantitativo combinado com entrevistas semiestruturadas qualitativas)
+- **Características dos Participantes**: 100 participantes no total, compreendendo 84 investigadores da área da saúde, 16 bibliotecários e 1 Diretor de Investigação
+- **Atores de Suporte**: Bibliotecários; Gestores de repositório; Diretor de Investigação
+- **Fonte de Mandato de Financiamento**: Ausência de mandatos formais institucionais ou de financiadores obrigatórios no momento do estudo
+- **Ferramentas e Plataformas**: Armazenamento local (computadores pessoais, discos externos, pens USB) e métodos informais
+- **Barreiras Relatadas**: Falta de diretrizes formais, ausência de mandatos institucionais e falta de literacia em RDM
+- **Desafios Relatados**: Desconhecimento generalizado sobre Planos de Gestão de Dados (PGD) e práticas formais de curadoria
+- **Fatores de Custo / Esforço**: Falta de tempo, recursos insuficientes, falta de suporte técnico e infraestrutura insuficiente
+- **Fatores de Benefício**: Melhor organização dos dados, redução do risco de perda de dados e aumento do potencial de partilha futura
+- **Fatores Contextuais Institucionais**: Políticas e normas, infraestrutura, suporte de bibliotecas ou data stewards, e repositórios
+- **Fatores Contextuais Individuais**: Conhecimento prévio, familiaridade com PGD, familiaridade com os princípios FAIR e disponibilidade de tempo
+- **Facilitadores Relatados**: Necessidade de adoção de políticas institucionais formais de PGD e capacitação liderada pelas bibliotecas
+- **Nível de Conhecimento FAIR**: Baixo
+- **Práticas de Partilha e Reutilização**: A partilha e o depósito formal em repositórios abertos são escassos, predominando a retenção privada dos dados
+- **Usabilidade e Experiência do Utilizador**: Ausência de ferramentas automatizadas integradas; dependência de processos manuais e informais
+- **Âmbito do Contexto Institucional**: Instituição (Escola de Medicina)
+- **Recomendações Chave**: Implementação urgente de políticas institucionais de RDM e reforço do apoio e formação por parte das bibliotecas académicas
+- **Bandeira de Limitações**: Foco restrito a uma única escola de medicina numa universidade, o que limita a generalização direta para outros contextos disciplinares ou geográficos
+- **Iniciais do Revisor**: AS
+- **Data de Extração**: 2026-09-20
+- **Comentários / Notas de Consenso**: Estudo misto robusto focado num contexto universitário africano em desenvolvimento; destaca a urgência de políticas institucionais e o papel estratégico das bibliotecas na superação de barreiras de infraestrutura
+- **Ferramenta Principal**: Nenhuma (práticas informais / armazenamento local)
