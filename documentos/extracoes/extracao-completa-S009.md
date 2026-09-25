@@ -1,0 +1,39 @@
+# S009: Rantasaari (2022)
+
+- **Referência Completa (ABNT)**: RANTASAARI, Jukka. Multi-Stakeholder Research Data Management Training as a Tool to Improve the Quality, Integrity, Reliability and Reproducibility of Research. Liber Quarterly: The Journal of the Association of European Research Libraries, v. 32, p. 1-54, 2022. DOI: 10.53377/lq.11726.
+- **Tipo de Documento**: Artigo de investigação
+- **Área do Conhecimento**: Ciências da Informação / Gestão de Dados de Investigação (RDM)
+- **País / Região**: Finlândia (Universidade de Turku e Åbo Akademi University)
+- **Objetivo**: Analisar como uma formação genérica e multi-stakeholder em gestão de dados de investigação (RDM) melhora as competências de estudantes de doutoramento e investigadores pós-doutoramento de várias disciplinas (STEM e HSS).
+  - *Citação direta (p. 3)*: "In this article, our goal is to find how generic, multi-stakeholder training can improve participants' competencies and further comprehension of the relevance of sound research data management practices regarding the quality and integrity of data and reliability of the research."
+- **Desenho do Estudo**: Survey / Estudo empírico quantitativo e qualitativo
+- **Características dos Participantes**: Estudantes de doutoramento (90%) e investigadores pós-doutoramento (10%) de diversas disciplinas[cite: 17].
+  - *Citação direta (p. 12)*: "Of the 386 enrolled participants in 2019-21, 346 (90%) were DSs, 37 (10%) were PdRs, and 3 (1%) were university employees."[cite: 17]
+- **Tamanho da Amostra**: 386 inscritos totais, 169 concluintes e 123 respostas analisadas[cite: 17].
+  - *Citação direta (p. 12)*: "During the years 2019–2021, a total of 386 doctoral students and postdoc researchers enrolled in the BRDM courses..."[cite: 17]
+- **Atores de Suporte**: Bibliotecários; gestores de repositório; especialistas jurídicos; oficiais de proteção de dados; biostatísticos; informáticos (IT)
+- **Fonte de Mandato de Financiamento**: Políticas institucionais das universidades envolvidas
+- **Ferramentas e Plataformas**: DMPTool / DMPTuuli; Moodle; REDCap; NVivo
+- **Barreiras Relatadas**: Falta de diretrizes formais, ausência de literacia prévia em RDM e complexidade regulatória
+- **Desafios Relatados**: Desconhecimento inicial sobre a estrutura de um PGD e dificuldades na aplicação prática dos princípios FAIR
+- **Fatores de Custo / Esforço**: Falta de tempo, recursos insuficientes, escassez de suporte técnico e limitações de infraestrutura
+- **Fatores de Benefício**: Melhor organização dos dados, facilitação da colaboração, redução de perda de dados, maior conformidade ética/legal e aumento do potencial de partilha
+- **Fatores Contextuais Institucionais**: Políticas e normas institucionais, infraestrutura tecnológica, serviços de apoio e suporte de data stewards
+- **Fatores Contextuais Individuais**: Conhecimento prévio, familiaridade com PGDs e princípios FAIR, e disponibilidade temporal
+- **Facilitadores Relatados**: Abordagem pedagógica multi-stakeholder, metodologia de flipped classroom e elaboração prática de um PGD próprio.
+  - *Citação direta (p. 38)*: "Regarding the criteria for successful training containing active participation, demand for RDM training, increased participants' knowledge, understanding and confidence, and positive post-training feedback, the multi-stakeholder BRDM course meets the criteria."
+- **Nível de Conhecimento FAIR**: Médio
+- **Práticas de Partilha e Reutilização**: Aumento da consciencialização para o depósito e partilha, embora persistam barreiras na execução autónoma.
+  - *Citação direta (p. 2)*: "Nevertheless, it is only useful to share well-documented, described, and organised data that provides clear data sharing parameters, including intellectual property rights (IPR) and agreements."[cite: 2]
+- **Usabilidade e Experiência do Utilizador**: Estrutura modular flexível, com sugestões de simplificação da linguagem jurídica e maior apoio prático.
+  - *Citação direta (p. 32)*: "Participants indicated that it would be helpful to see legal and data privacy principles and regulations presented as concrete instructions, cases, and examples."
+- **Âmbito do Contexto Institucional**: Instituição (Universidade)
+- **Recomendações Chave**: Implementação de formação contínua e colaborativa envolvendo vários departamentos de suporte desde o início do percurso doctoral.
+  - *Citação direta (p. 45)*: "Universities should implement multi-stakeholder research data management training programs combining active participation, domain-specific cultures, and concrete legal and metadata guidance to support early career researchers effectively."
+- **Bandeira de Limitações**: Foco restrito a duas universidades finlandesas, limitando a generalização, e dependência de autoavaliações.
+  - *Citação direta (p. 42)*: "The study is limited to two Finnish universities and relies partially on self-reported survey data, which may restrict generalizability to institutions with different support structures."
+- **Iniciais do Revisor**: AS
+- **Data de Extração**: 2026-09-20
+- **Comentários / Notas de Consenso**: Estudo exaustivo e empiricamente robusto sobre formação em RDM, combinando estatística descritiva/inferencial e análise qualitativa de feedback. 
+  - **OUTRO (Especificações adicionais)**: Abordagem pedagógica focada explicitamente na articulação multi-stakeholder (envolvendo bibliotecas, serviços jurídicos, TI e ética) e na aplicação prática imediata através de um Plano de Gestão de Dados (PGD) próprio do investigador.
+- **Ferramenta Principal**: DMPTool / DMPTuuli
