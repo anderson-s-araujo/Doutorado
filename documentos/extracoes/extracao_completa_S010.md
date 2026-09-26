@@ -1,0 +1,39 @@
+# S010: Sá et al. (2021)
+
+- **Referência Completa (ABNT)**: SÁ, Ivone Pereira de et al. Metodologia para identificação de tipos de dados de pesquisa: a experiência da Fundação Oswaldo Cruz (Fiocruz). Acervo, Rio de Janeiro, v. 34, n. 3, p. 1-15, set./dez. 2021. DOI: https://doi.org/10.25071/2236-4447.11726
+- **Tipo de Documento**: Relato de experiência / Artigo de investigação
+- **Área do Conhecimento**: Ciência da Informação / Arquivologia / Gestão de Dados de Investigação (RDM) em Saúde Pública
+- **País / Região**: Brasil (Fundação Oswaldo Cruz - Fiocruz, Rio de Janeiro)
+- **Objetivo**: Apresentar a experiência da Fiocruz na construção de uma metodologia desenvolvida para identificar os tipos de dados de pesquisa, visando subsidiar a política institucional e contribuir para a definição de prazos de guarda e preservação digital.
+  - *Citação direta (p. 4)*: "este artigo tiene como objetivo apresentar a experiência da Fiocruz na construção de uma metodologia desenvolvida pela COC, uma das unidades técnico-científicas da instituição, para identificar os tipos de dados de pesquisa. A metodologia também visa contribuir para o alcance de outros objetivos, tais como a definição do prazo de guarda dos dados e a sua preservação digital."
+- **Desenho do Estudo**: Relato de experiência empírica com aplicação de projeto-piloto em quatro áreas (saúde mental, genética, imunologia e epidemiologia).
+- **Características dos Participantes**: Investigadores, estudantes de pós-graduação e equipas de projetos de pesquisa de quatro áreas distintas da saúde pública na Fiocruz.
+- **Tamanho da Amostra**: Quatro projetos-piloto de investigação conduzidos em diferentes áreas da saúde pública, sem indicação numérica exata de participantes individuais.
+  - *Citação direta (p. 13)*: "Para testar e validar a metodologia foram conduzidos quatro pilotos dentro do campo da saúde pública, em diferentes áreas: saúde mental, genética, imunologia e epidemiologia."
+- **Atores de Suporte**: Arquivistas, bibliotecários, historiadores, equipas de TI e gestores institucionais da Vice-Presidência de Ensino, Informação e Comunicação (VPEIC) e da Casa de Oswaldo Cruz (COC).
+- **Fonte de Mandato de Financiamento**: Política de Gestão, Compartilhamento e Abertura de Dados para Pesquisa da Fiocruz (2020) e alinhamento com o 4º Plano de Ação Nacional para o Governo Aberto (OGP).
+- **Ferramentas e Plataformas**: Dataverse, DMPTool / DMPTuuli, Base Arch, Moodle, REDCap, NVivo e Plataforma Lattes.
+- **Barreiras Relatadas**: Ausência de modelos consolidados na literatura para identificação tipológica de dados de pesquisa, diversidade de práticas científicas entre disciplinas e limitações de espaço para armazenamento de longo prazo.
+- **Desafios Relatados**: Necessidade de alinhar uma metodologia única para áreas com culturas epistémicas distintas (exatas, biológicas, humanas e sociais) e compatibilizar terminologias de métodos.
+- **Fatores de Custo / Esforço**: Escassez de tempo dos investigadores, urgência nos resultados e limitações de recursos para preservação digital a longo prazo.
+- **Fatores de Benefício**: Maior autonomia institucional, segurança jurídica, garantia de preservação a longo prazo, fomento à ciência aberta e reutilização efetiva de dados por gestores, jornalistas e investigadores.
+  - *Citação direta (p. 4)*: "A metodologia também visa contribuir para o alcance de outros objetivos, tais como a definição do prazo de guarda dos dados e a sua preservação digital."
+- **Fatores Contextuais Institucionais**: Diversidade de unidades técnico-científicas da Fiocruz (17 unidades), tradição em arquivologia e salvaguarda de acervos científicos e de saúde pública.
+- **Fatores Contextuais Individuais**: Métodos e técnicas específicos de cada equipa científica, desde análises laboratoriais até entrevistas qualitativas.
+- **Facilitadores Relatados**: Adoção de uma abordagem interdisciplinar (arquivologia, biblioteconomia e história), uso de comunidades científicas e de prática (CoPS) como unidade de análise e utilização do vocabulário controlado DeCS.
+  - *Citação direta (p. 13)*: "O trabalho interdisciplinar do GT e a aproximação com os pesquisadores por meio dos pilotos foram fundamentais para o sucesso da metodologia."
+- **Nível de Conhecimento FAIR**: Moderado (foco na estruturação, metadados mínimos e interoperabilidade).
+- **Práticas de Partilha e Reutilização**: Alinhamento com a Política de Acesso Aberto da Fiocruz e depósito de dados e publicações no repositório institucional Arca, visando a abertura, preservação e reutilização segura.
+  - *Citação direta (p. 3)*: "A iniciativa insere-se no rol de ações da Fiocruz relacionadas ao Movimento Internacional de Acesso Aberto ao Conhecimento, a partir do qual foi lançado, em 2011, o repositório institucional Arca..."
+- **Usabilidade e Experiência do Utilizador**: Metodologia estruturada em seis etapas sequenciais e claras (caracterização, levantamento de produção, identificação de métodos, preenchimento de formulários, visitas técnicas e sistematização).
+  - *Citação direta (p. 8)*: "A metodologia desenvolvida estruturou-se em seis etapas principais: (1) caracterização da comunidade científica e de prática; (2) levantamento da produção científica e técnica; (3) identificação de métodos e técnicas de pesquisa; (4) aplicação do formulário de identificação de tipos de dados; (5) realização de visitas técnicas e entrevistas; e (6) análise e sistematização dos dados."
+- **Âmbito do Contexto Institucional**: Institucional / Multidisciplinar (Nacional - Fiocruz)
+- **Recomendações Chave**: Os autores recomendam a adoção contínua de abordagens interdisciplinares e metodologias participativas para mapear dados de pesquisa, bem como a integração entre serviços de informação, arquivos e equipas técnicas.
+  - *Citação direta (p. 13)*: "Destaca-se a importância da continuidade de estudos dessa natureza e da aproximação entre os profissionais da informação e os pesquisadores, elemento essencial para o sucesso das políticas de gestão de dados de pesquisa nas instituições científicas."
+- **Bandeira de Limitações**: O modelo metodológico foi testado apenas em quatro áreas-piloto específicas da instituição, exigindo adaptações e validações adicionais caso seja aplicado a outras disciplinas.
+  - *Citação direta (p. 14)*: "Apesar de os resultados terem sido satisfatórios nos quatro pilotos avaliados, reconhece-se a necessidade de testar a metodologia em outras áreas e unidades da instituição para aprimorar o instrumento e contemplar a diversidade de práticas científicas."
+- **Iniciais do Revisor**: AS
+- **Data de Extração**: 2025-09-25
+- **Comentários / Notas de Consenso**: Estudo metodológico pioneiro no Brasil que articula a Ciência da Informação e a Arquivologia na gestão de dados de pesquisa em saúde pública, baseado na experiência da Fundação Oswaldo Cruz (Fiocruz). 
+  - **OUTRO (Especificações adicionais)**: Maior clareza sobre metadados, armazenamento e preservação digital a longo prazo.
+- **Ferramenta Principal**: Dataverse / DMPTuuli
