@@ -2,17 +2,20 @@
 
 ## Tabela 1: Caracterização Geral dos Estudos
 
-| study_id   | country_region   | study_design                               | participant_count                 |
-|:-----------|:-----------------|:-------------------------------------------|:----------------------------------|
-| S001       | Estados Unidos   | Estudo transversal quantitativo            | 120 profissionais de saúde        |
-| S002       | Reino Unido      | Pesquisa qualitativa exploratória          | 45 gestores e clínicos            |
-| S003       | Internacional    | Estudo metodológico computacional          | 210 datasets ômicos               |
-| S004       | Brasil           | Investigação descritiva observacional      | 85 investigadores epidemiológicos |
-| S005       | Canadá           | Estudo de caso qualitativo                 | 30 coordenadores institucionais   |
-| S006       | Portugal         | Pesquisa survey com análise estatística    | 150 estudantes de pós-graduação   |
-| S007       | Estados Unidos   | Revisão sistemática com análise documental | 60 ensaios clínicos auditados     |
-| S008       | Espanha          | Estudo analítico de bases secundárias      | 95 bases de dados em saúde        |
-| S009       | Países Baixos    | Estudo bibliométrico e cienciométrico      | 180 artigos indexados             |
-| S010       | Reino Unido      | Análise de inovação tecnológica            | 40 projetos de inovação           |
-| S011       | Brasil           | Pesquisa-ação participativa                | 320 atores da rede de saúde       |
+| study_id | country_region | study_design | participant_count |
+| :--- | :--- | :--- | :--- |
+| S001 | Estados Unidos | Relato de Experiência | Artigo técnico/metodológico (DMPTool) |
+| S002 | África do Sul | Estudo de Caso | Estudo multi-institucional (NESHIE) |
+| S003 | Turquia | Survey | 1.577 respostas completadas |
+| S004 | Índia | Survey | 96 doutorandos (6 IITs) |
+| S005 | Iraque | Survey | 175 respondentes (pós-graduação e docente) |
+| S006 | Suécia / UE | Entrevista | 9 participantes |
+| S007 | Multinacional | Métodos Mistos | 70 DMPs públicos e 13 investigadores |
+| S008 | Malawi | Métodos Mistos | 84 investigadores e 16 bibliotecários |
+| S009 | Finlândia | Survey / Mistos | 123 respostas válidas (pós-curso) |
+| S010 | Brasil | Relato de Experiência | 4 projetos-piloto em saúde pública |
+| S011 | Canadá | Outro / Bibliométrico | 361 artigos científicos analisados |
 
+---
+
+*Nota: Tabela atualizada rigorosamente com base nas extrações do corpus (S001–S011) no âmbito da Gestão de Dados em Saúde (GDI).*
